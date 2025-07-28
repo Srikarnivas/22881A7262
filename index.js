@@ -34,10 +34,11 @@ app.post('/shorten', (req, res) => {
     expiryTime,
     clicks: 0
   };
+  const baseUrl = process.env.BASE_URL || `${req.protocol}://${req.get('host')}`;
+  const shortUrl = `${baseUrl}/r/${shortCode}`;
 
   res.status(200).json({
-    const baseUrl = process.env.BASE_URL || `${req.protocol}://${req.get('host')}`;
-    short_url: `${baseUrl}/r/${shortCode}`;
+    short_url: shortUrl,
     code: shortCode,
     expires_at: expiryTime.toISOString()
   });
