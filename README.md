@@ -102,3 +102,14 @@ Redirects to https://example.com
 
 3. GET /stats/mycustomcode
 Returns usage stats and expiry info
+
+Add followingin the .env file in logging middleware folder
+
+```base
+EMAIL=demo@gmail.com
+NAME=your name
+ROLLNO=23567nm
+ACCESS_CODE=rnadom
+CLIENT_ID=bcjbcdsjckds
+CLIENT_SECRET=hfbewbewj
+```
