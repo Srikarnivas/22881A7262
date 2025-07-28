@@ -1,3 +1,7 @@
+[![Live on Render](https://img.shields.io/badge/Hosted%20on-Render-blue)](https://url-shortener-0vuy.onrender.com)
+
+🔗 Try it live: [https://url-shortener-0vuy.onrender.com](https://url-shortener-0vuy.onrender.com)
+
 # 🔗 Node.js URL Shortener API
 
 A simple URL shortener backend built with **Node.js** and **Express**, allowing users to generate shortened URLs with optional custom codes and expiration times. Includes statistics tracking for each short URL.
