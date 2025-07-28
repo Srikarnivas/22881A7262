@@ -42,7 +42,7 @@ json
 json
 ```bash
 {
-  "short_url": "http://localhost:3000/r/custom123",
+  "short_url": "http://localhost:5000/r/custom123",
   "code": "custom123",
   "expires_at": "2025-07-28T12:05:00.000Z"
 }
@@ -52,7 +52,7 @@ Redirects to the original URL using the short code.
 
 Example:
 ```bash
-GET http://localhost:3000/r/custom123
+GET http://localhost:5000/r/custom123
 ```
 Redirects if valid
 
